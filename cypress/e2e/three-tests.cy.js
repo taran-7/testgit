@@ -23,7 +23,7 @@ describe('Three tests', () => {
 
     cy.visit('https://www.google.com.ua')
     cy.get('.gLFyf').type('Де знаходиться Україна?{enter}');
-    cy.wait(2000);
+    cy.wait(3000);
 
   })
 
