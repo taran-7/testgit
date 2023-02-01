@@ -19,6 +19,13 @@ describe('Three tests', () => {
 
     })
 
+    it('test new test', () => {
+
+          cy.visit('https://ukr.net');
+          cy.get('[class="shadowed"]').last().click();
+          cy.wait(3000);
+    })
+
 
 
 })
